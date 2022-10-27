@@ -1,0 +1,40 @@
+.home_container{
+    text-align: center;
+}
+
+.home_title{
+    position: absolute;
+    z-index: 1000;
+    top: 54%;
+    left: 33%;
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+    width: 640px;
+    line-height: 1.2;
+
+}
+
+.home_img{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    filter: brightness(40%);
+    position: relative;
+}
+
+.home_btn{
+    position: absolute;
+    z-index: 1000;
+    top: 70%;
+    left: 45%;
+    background-color: #fe5f1e;
+    border: 1px solid white;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 20px;
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
